@@ -3,14 +3,14 @@ jQuery.IEPlaceHolder
 
 IEPlaceHolder is jQuery Plugin for Internet Explorer 7, 8 and 9
 
-<code>
+```javascript
 $(document).ready(function () {
 	$.fn.iePlaceHolder({
     Class: 'place-holder',
     element: 'span'
   });
 });
-</code>
+```
 
 <h2>How it Works?</h2>
 <p>This Plugin will read the input or textarea element's `placeholder` attribute and insert the new element before every form input / textarea</p>
